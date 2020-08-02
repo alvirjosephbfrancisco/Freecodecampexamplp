@@ -33,6 +33,8 @@ body {
     align-self: center;
     align-items: center;
     margin-left: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .headerimgdiv {
     height: 50px;
