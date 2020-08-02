@@ -10,7 +10,10 @@ body {
     justify-content: space-between;
     background-color: green;
     display: flex;
-    position: relative;
+    top:0px;
+
+    position: sticky;
+    z-index: 10000;
 
 }
 .headerleft {
@@ -19,8 +22,9 @@ body {
     background-color: ; 
     display: flex;
     flex-direction: row-reverse;
-    position: relative;
-    margin-left: 30px;
+
+    margin-left: 30px;.
+
 }
 
 #header {
@@ -35,7 +39,6 @@ body {
     width:50px;
     align-self: center;
     display: block;
-   
 }
 
 #header-img {
@@ -50,7 +53,7 @@ display: flex;
 align-items: center;
 padding: 15px;
 
-position: relative;}
+position: sticky;}
 
 #nav-bar ul {
    width: auto;
@@ -186,6 +189,15 @@ margin: 0px 30px 30px 30px;
 
 .mktgboxes div a {
 margin: 20px 0px
+}
+
+.sticky {
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0px
 }
 /*-----------------------------------------900px width--------------------------------------*/
 /*-----------------------------------------VIDEO --------------------------------------*/
