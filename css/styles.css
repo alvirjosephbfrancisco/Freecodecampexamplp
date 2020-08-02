@@ -229,13 +229,13 @@ margin: 20px 0px
     z-index: 10;
     width: 800px;
     display: block;
-    height: 1000px;
+    
 }
 
 
     #nav-bar ul {
        width: 100%;
-       display: none; 
+     
        list-style: none;
        flex-direction: column;
        justify-content: center;
@@ -243,11 +243,15 @@ margin: 20px 0px
       background: rgba(122, 180, 144, 0.822);
         top: 80px;
         right: .00001px;
-        height: 800px;
-        padding-bottom: 200px;
      position: absolute;
-     z-index: 300;
+     height: 800px; /* 800px;*/
+     padding-bottom: 200px;/*200px; */
+     display: none; /*flex */
     }
+    
+
+
+
     
     #nav-bar ul li {
        width: 120%;
@@ -299,4 +303,4 @@ margin: 20px 0px
     .headerimgdiv {
         position: absolute;
     }
-    
+}
